@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Results Management System</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Student Results Management System</h1>
+            <p>Manage, analyze and evaluate student academic results</p>
+        </header>
+
+        <div class="section">
+            <h2>Students Overview</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Grades</th>
+                            <th>Attendance</th>
+                            <th>Average</th>
+                            <th>Grade</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studentsTable">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Mercy Committee</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Old Average</th>
+                            <th>New Average</th>
+                        </tr>
+                    </thead>
+                    <tbody id="mercyTable">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Academic Summary</h2>
+
+            <div class="summary">
+                <div class="summary-card">
+                    <h3>Total Students</h3>
+                    <p id="totalStudents">0</p>
+                </div>
+
+                <div class="summary-card">
+                    <h3>Mercy Students</h3>
+                    <p id="mercyCount">0</p>
+                </div>
+
+                <div class="summary-card">
+                    <h3>Mercy Average</h3>
+                    <p id="mercyAverage">0</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                Aya Mohammmed Ahmmed Elzein 
+            </div>
+            <div >
+            Student Results Management System | JavaScript OOP & Array Methods </div>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
